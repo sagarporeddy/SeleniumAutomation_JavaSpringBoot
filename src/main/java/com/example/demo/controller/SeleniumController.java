@@ -17,7 +17,7 @@ import org.openqa.selenium.Keys;
 @CrossOrigin(origins = "*")
 public class SeleniumController {
 
-	
+	// xpath example //*[@id="div-gpt-ad-teachyourselftestautomation_com-medrectangle-2-0"]
 	@GetMapping("/")
 	public String getEmployees() {
 		System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
